@@ -114,6 +114,8 @@ def lambda_handler(event, context):
 
 - Click Deploy
 
+![alt text](image-2.png)
+
 ---
 
 **🛠️ Step 4: Add S3 Trigger to Lambda**
@@ -134,6 +136,10 @@ def lambda_handler(event, context):
 
 - Click Add
 
+![alt text](image-1.png)
+
+---
+
 **🛠️ Step 5: Add SNS Publish Permissions to Lambda Role**
 
 - Go to the IAM Console
@@ -146,6 +152,8 @@ def lambda_handler(event, context):
 
 - Click Add permissions
 
+![alt text](image.png)
+
 ---
 
 **✅ Testing the Setup**
@@ -157,5 +165,7 @@ def lambda_handler(event, context):
 - Verify:
 
 - ✅ CloudWatch Logs show Lambda execution
+
+![alt text](image-3.png)
 
 - ✅ SMS received on your mobile with bucket/object details
